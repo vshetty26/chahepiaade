@@ -35,19 +35,19 @@ const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
 
 const Services = () => {
     return (
-        <section className="w-full bg-cafe-black py-24 px-4 md:px-20 relative">
+        <section className="w-full bg-cafe-black py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative">
             {/* Background Decor */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#F4A261] rounded-full mix-blend-screen filter blur-[120px] opacity-10 pointer-events-none"></div>
 
-            <div className="text-center mb-16">
+            <div className="text-center mb-12 sm:mb-16">
                 <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] uppercase">Our Menu</span>
-                <h2 className="text-4xl text-white font-bold mt-2 uppercase">Featured Chai Varieties</h2>
-                <p className="text-gray-400 mt-4 max-w-xl mx-auto font-light">
+                <h2 className="text-3xl sm:text-4xl text-white font-bold mt-2 uppercase">Featured Chai Varieties</h2>
+                <p className="text-gray-400 mt-3 sm:mt-4 max-w-xl mx-auto font-light text-sm sm:text-base">
                     Handcrafted with premium ingredients and authentic recipes passed down through generations
                 </p>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 <MenuItem
                     title="Classic Masala Chai"
                     price="60"

@@ -2,16 +2,16 @@ import React from 'react';
 
 const Location = () => {
     return (
-        <section className="w-full bg-[#111] py-20 px-4 md:px-20 relative overflow-hidden">
+        <section className="w-full bg-[#111] py-16 sm:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
             {/* Map Background Placeholder - dark overlay */}
             <div className="absolute inset-0 bg-[#F4A261]/5 opacity-20 pattern-dots"></div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 md:gap-16 items-center relative z-10">
 
                 {/* Contact Info */}
-                <div className="bg-cafe-black p-10 md:p-14 rounded-[3rem] border border-white/10 shadow-2xl">
+                <div className="bg-cafe-black p-8 sm:p-10 md:p-14 rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] border border-white/10 shadow-2xl">
                     <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] uppercase">Find Us</span>
-                    <h2 className="text-4xl text-white font-bold mt-2 mb-8 uppercase">Visit Us</h2>
+                    <h2 className="text-3xl sm:text-4xl text-white font-bold mt-2 mb-6 sm:mb-8 uppercase">Visit Us</h2>
 
                     <div className="space-y-8">
                         <div>
@@ -45,7 +45,7 @@ const Location = () => {
                 </div>
 
                 {/* Map Area */}
-                <div className="h-[400px] md:h-[600px] bg-white/5 rounded-[3rem] relative overflow-hidden flex items-center justify-center border border-white/5">
+                <div className="h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px] bg-white/5 rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] relative overflow-hidden flex items-center justify-center border border-white/5">
                     <div className="text-center p-8">
                         <div className="w-20 h-20 bg-[#F4A261]/20 rounded-full flex items-center justify-center mx-auto mb-4 text-[#F4A261]">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">

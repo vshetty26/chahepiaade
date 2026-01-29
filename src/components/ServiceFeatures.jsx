@@ -18,15 +18,15 @@ const ServiceCard = ({ title, description, icon }) => (
 
 const ServiceFeatures = () => {
     return (
-        <section className="w-full bg-cafe-black py-24 px-4 md:px-10 relative overflow-hidden">
+        <section className="w-full bg-cafe-black py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 relative overflow-hidden">
 
             {/* Header */}
-            <div className="text-center mb-20 relative z-10">
+            <div className="text-center mb-12 sm:mb-16 md:mb-20 relative z-10">
                 <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] uppercase mb-2 block">Features</span>
-                <h2 className="text-4xl md:text-5xl text-white font-bold uppercase tracking-tight">Our Services</h2>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl text-white font-bold uppercase tracking-tight">Our Services</h2>
             </div>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-8 items-center relative z-10">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-8 items-center relative z-10">
 
                 {/* Left Column */}
                 <div className="flex flex-col gap-8 order-2 lg:order-1">
@@ -51,7 +51,7 @@ const ServiceFeatures = () => {
                 </div>
 
                 {/* Center Column - Creative Visual */}
-                <div className="relative h-[400px] lg:h-[600px] flex items-center justify-center order-1 lg:order-2">
+                <div className="relative h-[300px] sm:h-[400px] lg:h-[600px] flex items-center justify-center order-1 lg:order-2">
 
                     {/* Glow Effect */}
                     <div className="absolute w-[400px] h-[400px] bg-[#F4A261] rounded-full blur-[100px] opacity-10"></div>

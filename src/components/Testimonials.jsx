@@ -38,14 +38,14 @@ const Testimonials = () => {
     ];
 
     return (
-        <section className="w-full bg-cafe-black py-20 px-4 md:px-20 border-t border-white/5">
+        <section className="w-full bg-cafe-black py-16 sm:py-20 px-4 sm:px-6 md:px-10 lg:px-20 border-t border-white/5">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
+                <div className="text-center mb-12 sm:mb-16">
                     <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] uppercase">Testimonials</span>
-                    <h2 className="text-4xl text-white font-bold mt-2 uppercase">What Our <br /> Customers Say</h2>
+                    <h2 className="text-3xl sm:text-4xl text-white font-bold mt-2 uppercase">What Our <br /> Customers Say</h2>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
                     {reviews.map((review, index) => (
                         <TestimonialCard key={index} {...review} />
                     ))}

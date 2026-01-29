@@ -2,14 +2,14 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-cafe-black text-white pt-20 pb-10 px-4 md:px-20">
+        <footer className="w-full bg-cafe-black text-white pt-16 sm:pt-20 pb-8 sm:pb-10 px-4 sm:px-6 md:px-10 lg:px-20">
 
             {/* Subscription Card replaced with "Our Journey" or a simple footer callout */}
-            <div className="max-w-7xl mx-auto bg-cafe-beige rounded-[3rem] p-10 md:p-16 text-center text-cafe-black relative overflow-hidden mb-20">
+            <div className="max-w-7xl mx-auto bg-cafe-beige rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-8 sm:p-10 md:p-16 text-center text-cafe-black relative overflow-hidden mb-16 sm:mb-20">
                 <span className="text-xs font-bold tracking-[0.2em] uppercase opacity-60">Join Our Community</span>
-                <h2 className="text-3xl md:text-5xl font-bold mt-4 mb-8">Follow Our Journey</h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-6 sm:mb-8">Follow Our Journey</h2>
                 <div className="flex justify-center gap-4">
-                    <button className="bg-black text-white px-8 py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#333] transition-all uppercase shadow-lg">
+                    <button className="bg-black text-white px-6 sm:px-8 py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#333] transition-all uppercase shadow-lg">
                         @CHAHEPIAADE
                     </button>
                 </div>
@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Footer Links */}
-            <div className="max-w-7xl mx-auto border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-start gap-10">
+            <div className="max-w-7xl mx-auto border-t border-white/10 pt-8 sm:pt-10 flex flex-col md:flex-row justify-between items-start gap-8 sm:gap-10">
 
                 {/* Brand */}
                 <div className="flex flex-col items-center md:items-start gap-4 max-w-sm">
@@ -68,7 +68,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="mt-16 border-t border-white/5 pt-8 text-center text-[10px] text-gray-600 uppercase tracking-widest flex flex-col md:flex-row justify-between items-center">
+            <div className="mt-12 sm:mt-16 border-t border-white/5 pt-6 sm:pt-8 text-center text-[10px] text-gray-600 uppercase tracking-widest flex flex-col md:flex-row justify-between items-center gap-2 sm:gap-0">
                 <span>© 2024 Chah E Piaa De. All rights reserved.</span>
                 <span className="mt-2 md:mt-0 opacity-50">Made with ❤️ and chai</span>
             </div>
