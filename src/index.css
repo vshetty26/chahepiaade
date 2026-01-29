@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cafe-black text-white;
+  }
+}
+
+.cafe-card {
+  @apply bg-cafe-beige text-cafe-black rounded-[3rem] p-10 relative overflow-hidden;
+}
+
+.splash-text {
+  @apply text-5xl md:text-7xl font-bold leading-tight;
+}
+
+/* Custom adjustments for the coffee splash */
+.coffee-splash-container {
+  /* This will be handled with absolute positioning and images */
+}
