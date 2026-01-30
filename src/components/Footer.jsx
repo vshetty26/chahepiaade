@@ -29,7 +29,7 @@ const Footer = () => {
                         <img src={logo} alt="Chah E Piaa De Logo" className="w-12 h-12 object-contain" />
                         <div className="flex flex-col">
                             <span className="text-white font-bold text-xl tracking-wider leading-none">Chah E Piaa De</span>
-                            <span className="text-white/60 text-[10px]">Serving authentic Indian chai since 2024</span>
+                            <span className="text-white/60 text-[10px]">Serving authentic Indian chai</span>
                         </div>
                     </div>
                     <p className="text-gray-400 text-sm mt-2 font-light leading-relaxed">
@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-12 sm:mt-16 border-t border-white/5 pt-6 sm:pt-8 text-center text-[10px] text-gray-600 uppercase tracking-widest flex flex-col md:flex-row justify-between items-center gap-2 sm:gap-0">
-                <span>© 2024 Chah E Piaa De. All rights reserved.</span>
+                <span>© 2026 Chah E Piaa De. All rights reserved.</span>
                 <span className="mt-2 md:mt-0 opacity-50">Made with ❤️ and chai</span>
             </div>
         </footer>
