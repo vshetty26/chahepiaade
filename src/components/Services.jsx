@@ -4,7 +4,7 @@ import kesarChai from '../assets/dishes/kesar_badam_chai.jpg';
 import tulsiChai from '../assets/dishes/ginger_tulsi_chai.jpg';
 import sandwich from '../assets/dishes/sandwich.png';
 import jumboBurger from '../assets/dishes/jumbo_burger.png';
-import churi from '../assets/dishes/churi.png';
+import churi from '../assets/dishes/churi.jpg';
 import kulhadPizza from '../assets/dishes/kulhad_pizza.png';
 
 const MenuItem = ({ title, price, description, tag, tagColor, image }) => (

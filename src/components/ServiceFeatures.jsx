@@ -51,18 +51,33 @@ const ServiceFeatures = () => {
                 </div>
 
                 {/* Center Column - Creative Visual */}
-                <div className="relative h-[300px] sm:h-[400px] lg:h-[600px] flex items-center justify-center order-1 lg:order-2 overflow-hidden">
+                <div className="relative h-[350px] sm:h-[450px] lg:h-[600px] flex items-center justify-center order-1 lg:order-2 overflow-visible">
 
                     {/* Glow Effect */}
                     <div className="absolute w-[400px] h-[400px] bg-[#F4A261] rounded-full blur-[100px] opacity-10"></div>
 
-                    {/* Spill Chai Image - No Circle Constraint */}
+                    {/* Spill Chai Image - Large and Overflowing */}
                     <div className="relative w-full h-full flex items-center justify-center z-10">
                         <img
                             src={spillChai}
-                            alt="Chai Spill"
-                            className="max-w-[100%] sm:max-w-[120%] lg:max-w-[140%] max-h-[100%] sm:max-h-[120%] lg:max-h-[140%] object-contain drop-shadow-2xl animate-float"
+                            alt="Chai Spill - Massive"
+                            className="w-auto h-full object-contain drop-shadow-2xl animate-float scale-image-massive"
+                            style={{
+                                transform: 'scale(1.2)',
+                            }}
                         />
+                        <style>{`
+                            @media (min-width: 640px) {
+                                .scale-image-massive {
+                                    transform: scale(1.2) !important;
+                                }
+                            }
+                            @media (min-width: 1024px) {
+                                .scale-image-massive {
+                                    transform: scale(1.4) !important;
+                                }
+                            }
+                        `}</style>
                     </div>
 
                 </div>
