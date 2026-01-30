@@ -15,14 +15,14 @@ const About = () => {
                 <div className="space-y-6 sm:space-y-8 md:space-y-10 order-2 md:order-1">
                     <div className="space-y-2">
                         <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] sm:tracking-[0.3em] uppercase block mb-3 sm:mb-4">Our Journey</span>
-                        <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold uppercase leading-[0.95] tracking-tight">
+                        <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold uppercase leading-[0.95] tracking-tight">
                             <span className="text-white block">Brewing</span>
                             <span className="text-gray-600 block">Traditions</span>
                             <span className="text-[#E76F51] block">Since 2024</span>
                         </h2>
                     </div>
 
-                    <div className="space-y-4 sm:space-y-6 text-gray-400 text-base sm:text-lg font-light leading-relaxed max-w-lg">
+                    <div className="space-y-3 sm:space-y-6 text-gray-400 text-sm sm:text-lg font-light leading-relaxed max-w-lg">
                         <p>
                             Chah E Piaa De was born from a simple dream - to bring the authentic taste of Indian chai to every corner of the city. Our founder, inspired by childhood memories of sipping chai with family, set out to recreate that warmth and connection.
                         </p>
@@ -47,7 +47,7 @@ const About = () => {
                 {/* Image Area with Frame */}
                 <div className="relative order-1 md:order-2 flex justify-center md:justify-end">
                     {/* The Frame Container */}
-                    <div className="relative w-full max-w-[350px] sm:max-w-[400px] aspect-[2/3] group">
+                    <div className="relative w-full max-w-[280px] sm:max-w-[400px] aspect-[2/3] group">
                         {/* Thin Border Frame */}
                         <div className="absolute inset-0 border border-[#F4A261]/30 rounded-[2rem] transform translate-x-3 translate-y-3 sm:translate-x-4 sm:translate-y-4 z-0 transition-transform duration-500 group-hover:translate-x-2 group-hover:translate-y-2"></div>
 

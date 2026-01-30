@@ -1,19 +1,19 @@
 import React from 'react';
 
 const TestimonialCard = ({ quote, author, role }) => (
-    <div className="bg-white/5 p-8 rounded-3xl border border-white/5 relative">
-        <div className="text-[#F4A261] text-4xl font-serif absolute top-6 left-6">"</div>
-        <div className="flex text-[#F4A261] mb-6 justify-center">
+    <div className="bg-white/5 p-6 sm:p-8 rounded-2xl sm:rounded-3xl border border-white/5 relative">
+        <div className="text-[#F4A261] text-3xl sm:text-4xl font-serif absolute top-4 sm:top-6 left-4 sm:left-6">"</div>
+        <div className="flex text-[#F4A261] mb-4 sm:mb-6 justify-center">
             {[...Array(5)].map((_, i) => (
                 <span key={i} className="text-sm">★</span>
             ))}
         </div>
-        <p className="text-gray-300 text-center italic mb-6 leading-relaxed relative z-10">
+        <p className="text-gray-300 text-sm sm:text-base text-center italic mb-4 sm:mb-6 leading-relaxed relative z-10">
             {quote}
         </p>
         <div className="text-center">
-            <h4 className="text-white font-bold">{author}</h4>
-            <span className="text-gray-500 text-xs tracking-widest uppercase">{role}</span>
+            <h4 className="text-white font-bold text-sm sm:text-base">{author}</h4>
+            <span className="text-gray-500 text-[10px] sm:text-xs tracking-widest uppercase">{role}</span>
         </div>
     </div>
 );

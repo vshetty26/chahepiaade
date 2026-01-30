@@ -8,14 +8,14 @@ import churi from '../assets/dishes/churi.png';
 import kulhadPizza from '../assets/dishes/kulhad_pizza.png';
 
 const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
-    <div className="flex flex-col text-left space-y-4 p-4 bg-white/5 hover:bg-white/10 rounded-3xl transition-all duration-300 group border border-white/5 hover:border-[#F4A261]/30 relative overflow-hidden">
+    <div className="flex flex-col text-left space-y-3 sm:space-y-4 p-3 sm:p-4 bg-white/5 hover:bg-white/10 rounded-2xl sm:rounded-3xl transition-all duration-300 group border border-white/5 hover:border-[#F4A261]/30 relative overflow-hidden">
         {tag && (
-            <span className={`absolute top-4 right-4 z-10 text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-full shadow-lg ${tagColor || 'bg-[#F4A261] text-white'}`}>
+            <span className={`absolute top-3 sm:top-4 right-3 sm:right-4 z-10 text-[9px] sm:text-[10px] font-bold tracking-widest uppercase px-2 sm:px-3 py-1 rounded-full shadow-lg ${tagColor || 'bg-[#F4A261] text-white'}`}>
                 {tag}
             </span>
         )}
 
-        <div className="w-full h-56 rounded-2xl overflow-hidden relative">
+        <div className="w-full h-48 sm:h-56 rounded-xl sm:rounded-2xl overflow-hidden relative">
             <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10"></div>
             <img
                 src={image}
@@ -24,13 +24,13 @@ const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
             />
         </div>
 
-        <div className="px-2">
+        <div className="px-1 sm:px-2">
             <div className="flex justify-between items-start">
-                <h3 className="text-xl font-bold text-white group-hover:text-[#F4A261] transition-colors">{title}</h3>
-                {price && <p className="text-[#F4A261] font-bold text-lg">₹{price}</p>}
+                <h3 className="text-lg sm:text-xl font-bold text-white group-hover:text-[#F4A261] transition-colors">{title}</h3>
+                {price && <p className="text-[#F4A261] font-bold text-base sm:text-lg">₹{price}</p>}
             </div>
 
-            <p className="text-gray-400 text-sm leading-relaxed mt-2 line-clamp-2">
+            <p className="text-gray-400 text-xs sm:text-sm leading-relaxed mt-1 sm:mt-2 line-clamp-2">
                 {description}
             </p>
         </div>

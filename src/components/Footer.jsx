@@ -6,9 +6,9 @@ const Footer = () => {
         <footer className="w-full bg-cafe-black text-white pt-16 sm:pt-20 pb-8 sm:pb-10 px-4 sm:px-6 md:px-10 lg:px-20">
 
             {/* Subscription Card replaced with "Our Journey" or a simple footer callout */}
-            <div className="max-w-7xl mx-auto bg-cafe-beige rounded-[2rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-8 sm:p-10 md:p-16 text-center text-cafe-black relative overflow-hidden mb-16 sm:mb-20">
+            <div className="max-w-7xl mx-auto bg-cafe-beige rounded-[1.5rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-6 sm:p-10 md:p-16 text-center text-cafe-black relative overflow-hidden mb-12 sm:mb-20">
                 <span className="text-xs font-bold tracking-[0.2em] uppercase opacity-60">Join Our Community</span>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-6 sm:mb-8">Follow Our Journey</h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-3 sm:mt-4 mb-4 sm:mb-8">Follow Our Journey</h2>
                 <div className="flex justify-center gap-4">
                     <button className="bg-black text-white px-6 sm:px-8 py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#333] transition-all uppercase shadow-lg">
                         @CHAHEPIAADE
