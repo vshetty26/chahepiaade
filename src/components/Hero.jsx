@@ -3,7 +3,7 @@ import heroImage from '../assets/hero2.png';
 
 const Hero = () => {
     return (
-        <section className="relative w-full min-h-[600px] sm:min-h-screen bg-cafe-black text-white pt-20 sm:pt-24 pb-8 sm:pb-12 px-4 sm:px-6 md:px-8 flex items-center justify-center overflow-hidden">
+        <section id="home" className="relative w-full min-h-[600px] sm:min-h-screen bg-cafe-black text-white pt-20 sm:pt-24 pb-8 sm:pb-12 px-4 sm:px-6 md:px-8 flex items-center justify-center overflow-hidden">
 
             {/* Decorative Elements (background blobs?) */}
 

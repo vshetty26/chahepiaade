@@ -2,7 +2,7 @@ import React from 'react';
 
 const Location = () => {
     return (
-        <section className="w-full bg-[#111] py-16 sm:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
+        <section id="locations" className="w-full bg-[#111] py-16 sm:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
             {/* Map Background Placeholder - dark overlay */}
             <div className="absolute inset-0 bg-[#F4A261]/5 opacity-20 pattern-dots"></div>
 

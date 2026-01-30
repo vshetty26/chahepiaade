@@ -3,7 +3,7 @@ import logo from '../assets/chah_logo_new.png';
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-cafe-black text-white pt-16 sm:pt-20 pb-8 sm:pb-10 px-4 sm:px-6 md:px-10 lg:px-20">
+        <footer id="contact" className="w-full bg-cafe-black text-white pt-16 sm:pt-20 pb-8 sm:pb-10 px-4 sm:px-6 md:px-10 lg:px-20">
 
             {/* Subscription Card replaced with "Our Journey" or a simple footer callout */}
             <div className="max-w-7xl mx-auto bg-cafe-beige rounded-[1.5rem] sm:rounded-[2.5rem] md:rounded-[3rem] p-6 sm:p-10 md:p-16 text-center text-cafe-black relative overflow-hidden mb-12 sm:mb-20">

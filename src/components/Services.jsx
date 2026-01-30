@@ -39,7 +39,7 @@ const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
 
 const Services = () => {
     return (
-        <section className="w-full bg-cafe-black py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative">
+        <section id="menu" className="w-full bg-cafe-black py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative">
             {/* Background Decor */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#F4A261] rounded-full mix-blend-screen filter blur-[120px] opacity-10 pointer-events-none"></div>
 

@@ -3,7 +3,7 @@ import storefrontImage from '../assets/storefront.jpg';
 
 const About = () => {
     return (
-        <section className="w-full bg-cafe-black text-white py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
+        <section id="about" className="w-full bg-cafe-black text-white py-16 sm:py-20 md:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
 
             {/* Background blobs */}
             <div className="absolute top-20 right-[-100px] w-80 h-80 bg-[#E76F51] rounded-full mix-blend-screen filter blur-[100px] opacity-10"></div>
