@@ -1,5 +1,5 @@
 import React from 'react';
-import cafeInterior from '../assets/cafe-interior.jpg';
+import cafeInterior from '../assets/cafe-interior-new.jpg';
 
 const About = () => {
     return (
@@ -47,7 +47,7 @@ const About = () => {
                 {/* Image Area with Frame */}
                 <div className="relative order-1 md:order-2 flex justify-center md:justify-end">
                     {/* The Frame Container */}
-                    <div className="relative w-full max-w-[550px] sm:max-w-[700px] aspect-[16/10] group">
+                    <div className="relative w-full max-w-[450px] sm:max-w-[500px] aspect-[4/5] group">
                         {/* Thin Border Frame */}
                         <div className="absolute inset-0 border border-[#F4A261]/30 rounded-[2rem] transform translate-x-3 translate-y-3 sm:translate-x-4 sm:translate-y-4 z-0 transition-transform duration-500 group-hover:translate-x-2 group-hover:translate-y-2"></div>
 
