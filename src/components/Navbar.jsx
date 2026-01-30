@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/chah_logo_new.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -6,13 +7,11 @@ const Navbar = () => {
     return (
         <nav className="w-full py-6 px-4 md:px-10 flex justify-between items-center bg-transparent absolute top-0 z-50">
             <div className="flex items-center gap-3">
-                {/* Placeholder Logo Icon */}
-                <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center bg-white/10 backdrop-blur-sm">
-                    <span className="text-white text-lg font-bold">C</span>
-                </div>
+                {/* Logo */}
+                <img src={logo} alt="Chah E Piaa De Logo" className="w-12 h-12 object-contain" />
                 <div className="flex flex-col">
                     <span className="text-white font-bold text-xl tracking-wider leading-none">Chah E Piaa De</span>
-                    <span className="text-white/80 text-xs font-medium">ਚਾਹ ਦੀ ਪਿਆਲਾ ਦੇ</span>
+                    <span className="text-white/80 text-xs font-medium">ਚਾਹ ਏ ਪੀਆ ਦੇ</span>
                 </div>
             </div>
 

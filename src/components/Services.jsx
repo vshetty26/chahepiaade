@@ -2,6 +2,10 @@ import React from 'react';
 import masalaChai from '../assets/dishes/masala_chai.jpg';
 import kesarChai from '../assets/dishes/kesar_badam_chai.jpg';
 import tulsiChai from '../assets/dishes/ginger_tulsi_chai.jpg';
+import sandwich from '../assets/dishes/sandwich.png';
+import jumboBurger from '../assets/dishes/jumbo_burger.png';
+import churi from '../assets/dishes/churi.png';
+import kulhadPizza from '../assets/dishes/kulhad_pizza.png';
 
 const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
     <div className="flex flex-col text-left space-y-4 p-4 bg-white/5 hover:bg-white/10 rounded-3xl transition-all duration-300 group border border-white/5 hover:border-[#F4A261]/30 relative overflow-hidden">
@@ -23,7 +27,7 @@ const MenuItem = ({ title, price, description, tag, tagColor, image }) => (
         <div className="px-2">
             <div className="flex justify-between items-start">
                 <h3 className="text-xl font-bold text-white group-hover:text-[#F4A261] transition-colors">{title}</h3>
-                <p className="text-[#F4A261] font-bold text-lg">₹{price}</p>
+                {price && <p className="text-[#F4A261] font-bold text-lg">₹{price}</p>}
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed mt-2 line-clamp-2">
@@ -41,16 +45,15 @@ const Services = () => {
 
             <div className="text-center mb-12 sm:mb-16">
                 <span className="text-[#F4A261] text-xs font-bold tracking-[0.2em] uppercase">Our Menu</span>
-                <h2 className="text-3xl sm:text-4xl text-white font-bold mt-2 uppercase">Featured Chai Varieties</h2>
+                <h2 className="text-3xl sm:text-4xl text-white font-bold mt-2 uppercase">Featured Items</h2>
                 <p className="text-gray-400 mt-3 sm:mt-4 max-w-xl mx-auto font-light text-sm sm:text-base">
-                    Handcrafted with premium ingredients and authentic recipes passed down through generations
+                    Handcrafted with premium ingredients and authentic recipes
                 </p>
             </div>
 
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 <MenuItem
                     title="Classic Masala Chai"
-                    price="60"
                     description="Traditional blend of aromatic spices with premium black tea."
                     tag="Bestseller"
                     tagColor="bg-[#E76F51] text-white"
@@ -59,7 +62,6 @@ const Services = () => {
 
                 <MenuItem
                     title="Kesar Badam Chai"
-                    price="80"
                     description="Rich saffron and almond infused chai with a royal touch."
                     tag="Premium"
                     tagColor="bg-yellow-600 text-white"
@@ -68,11 +70,42 @@ const Services = () => {
 
                 <MenuItem
                     title="Ginger Tulsi Chai"
-                    price="65"
                     description="Healing blend of fresh ginger and holy basil."
                     tag="Healthy"
                     tagColor="bg-green-600 text-white"
                     image={tulsiChai}
+                />
+
+                <MenuItem
+                    title="Gourmet Sandwich"
+                    description="Fresh vegetables, cheese, and grilled chicken layered between artisan bread."
+                    tag="Popular"
+                    tagColor="bg-[#E76F51] text-white"
+                    image={sandwich}
+                />
+
+                <MenuItem
+                    title="Jumbo Burger"
+                    description="Massive burger with multiple patties, melted cheese, and fresh toppings."
+                    tag="Signature"
+                    tagColor="bg-red-600 text-white"
+                    image={jumboBurger}
+                />
+
+                <MenuItem
+                    title="Churi"
+                    description="Sweet flattened rice dessert garnished with nuts, raisins, and coconut."
+                    tag="Traditional"
+                    tagColor="bg-amber-600 text-white"
+                    image={churi}
+                />
+
+                <MenuItem
+                    title="Kulhad Pizza"
+                    description="Unique fusion pizza baked in traditional clay cup with melted cheese and toppings."
+                    tag="Special"
+                    tagColor="bg-purple-600 text-white"
+                    image={kulhadPizza}
                 />
             </div>
 

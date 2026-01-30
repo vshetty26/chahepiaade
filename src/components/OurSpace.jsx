@@ -30,9 +30,12 @@ const OurSpace = () => {
                 {/* Video Container */}
                 <div className="w-full max-w-5xl relative group rounded-2xl overflow-hidden shadow-2xl shadow-[#F4A261]/10 border border-white/10 animate-fade-in-up delay-300">
                     {/* Placeholder / Video */}
-                    <div className="aspect-video w-full bg-black/50 relative">
+                    <div className="aspect-video w-full bg-black/50 relative overflow-hidden">
                         <video
                             className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700"
+                            style={{
+                                clipPath: 'inset(0 0 6% 0)'
+                            }}
                             poster={heroImage}
                             autoPlay
                             loop

@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/chah_logo_new.png';
 
 const Footer = () => {
     return (
@@ -25,9 +26,7 @@ const Footer = () => {
                 {/* Brand */}
                 <div className="flex flex-col items-center md:items-start gap-4 max-w-sm">
                     <div className="flex items-center gap-2">
-                        <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center bg-white/10">
-                            <span className="text-white text-sm font-bold">C</span>
-                        </div>
+                        <img src={logo} alt="Chah E Piaa De Logo" className="w-12 h-12 object-contain" />
                         <div className="flex flex-col">
                             <span className="text-white font-bold text-xl tracking-wider leading-none">Chah E Piaa De</span>
                             <span className="text-white/60 text-[10px]">Serving authentic Indian chai since 2024</span>
