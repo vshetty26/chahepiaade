@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img src={logo} alt="Chah E Piaa De Logo" className="w-12 h-12 object-contain" />
                 <div className="flex flex-col">
                     <span className="text-white font-bold text-xl tracking-wider leading-none">Chah E Piaa De</span>
-                    <span className="text-white/80 text-xs font-medium">ਚਾਹ ਏ ਪੀਆ ਦੇ</span>
+                    <span className="text-white/80 text-xs font-medium">ਚਾਹ ਈ ਪਿਆ ਦੇ</span>
                 </div>
             </div>
 
